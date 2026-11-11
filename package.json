@@ -1,0 +1,19 @@
+{
+  "name": "zero-locks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read and check the locks behind zero launches.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "read-lock": "tsx examples/read-lock.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.99.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}
